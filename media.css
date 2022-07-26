@@ -1,0 +1,822 @@
+@media screen and (max-width: 1024px) {
+  .sidebox {
+    display: none;
+  }
+
+  .text p {
+    margin-left: 45px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767.97px) {
+
+#boxmine1,#boxmine2{
+    display: none;
+}
+
+.contact_flex{
+display: block;
+}
+
+.contact1{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+
+
+.project_flex {
+margin: 30px auto;
+}
+
+.adjustment{
+    display: none;
+}
+
+#myproject{
+  display: none;
+}
+
+.image img{
+  width: 60%;
+}
+
+}
+
+@media screen and (min-width:656px) and (max-width:768px) {
+  .adjustment{
+    display: initial;
+    visibility: hidden;
+  }
+
+  .project{
+    padding: 10px;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .type h1 {
+    margin-left: 50px;
+  }
+
+  .select h1 {
+    padding-left: 70px;
+    font-size: 40px;
+  }
+
+  .center p {
+    padding-left: 70px;
+  }
+
+  .center p::before {
+    left: 70px;
+  }
+
+  .center a {
+    margin-left: 70px;
+  }
+
+  .about_flex {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .image {
+    width: 40%;
+    text-align: start;
+  }
+
+  .image img {
+    width: 100%;
+    
+  }
+
+  .image::before {
+    display: none;
+  }
+
+  .about {
+    width: 48%;
+    margin-top: 80px;
+  }
+
+  .about h1 {
+    margin-left: 0px;
+  }
+
+  .about h2 {
+    padding-left: 0px;
+  }
+
+  .about p {
+    padding-left: 0px;
+    font-size: 16px;
+  }
+
+  .about a {
+    margin-left: 0px;
+  }
+
+  .look {
+    text-align: center;
+  }
+
+  .box_flex {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    margin-left: 80px;
+  }
+
+  .box {
+    width: 48%;
+    margin-left: 0;
+  }
+
+  .box p::after {
+    left: 120px;
+  }
+
+  #boxmine2{
+    display: none;
+     
+   }
+
+   #boxmine1{
+    visibility: hidden;
+     
+   }
+
+  .work {
+    text-align: center;
+  }
+
+  .work h2 {
+    text-align: center;
+  }
+
+  .project_flex {
+    width: 90%;
+    margin: 30px 0 0 40px;
+  }
+
+  .project {
+    overflow: hidden;
+    width: 295px;
+    height: 250px;
+  }
+
+  .project_box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project img {
+    width: 295px;
+    height: 250px;
+  }
+
+  #myproject{
+    display: none;
+  }
+
+  .adjustment{
+    visibility: hidden;
+  }
+
+  .learn_flex {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .learnhead {
+    width: 20%;
+    margin-top: 60px;
+  }
+
+  .learntext {
+    width: 50%;
+  }
+
+  .lean {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid rgb(255, 81, 126);
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    left: 125px;
+    top: 40px;
+    z-index: -1;
+  }
+
+  .learn_flex1 {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+
+  .learnhead1 {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 15%;
+  }
+
+  .learnhead1 h4 {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .learntext1 {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 40px;
+  }
+
+  .learntext1 h3 {
+    padding: 10px 25px;
+  }
+
+  .learntext1 span {
+    padding: 10px 80px;
+  }
+
+  .lean1 {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid rgb(255, 196, 84);
+    border-bottom: 15px solid transparent;
+    left: -32px;
+    top: 60px;
+  }
+
+  .bachelor1 {
+    left: -50px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .sidebox {
+    overflow-x: hidden;
+  }
+
+  .span {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .text p {
+    margin-left: 40px;
+  }
+
+  .type {
+    margin-bottom: 0;
+    padding-top: 100px;
+  }
+
+  .type h1 {
+    margin-left: 150px;
+    padding-bottom: 5px;
+    font-size: 32px;
+  }
+
+  .type h1::after {
+    width: 225px;
+  }
+
+  .select h1 {
+    padding-left: 170px;
+    padding-top: 0;
+    font-size: 90px;
+  }
+
+  .center p {
+    padding-left: 170px;
+    font-size: 20px;
+  }
+
+  .center p::before {
+    left: 170px;
+    font-size: 20px;
+  }
+
+  .center a {
+    margin: 60px 0 50px 170px;
+  }
+
+  .image::before {
+    display: none;
+  }
+
+  .about_flex {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-top: 70px;
+  }
+
+  .image {
+    width: 30%;
+    margin-top: 0px;
+    
+  }
+
+  .image img {
+    width: 100%;
+    
+  }
+
+  .image::before {
+    display: none;
+  }
+
+  .about {
+    width: 49%;
+    margin-top: 0px;
+  }
+
+  .about h1 {
+    margin-left: 0px;
+  }
+
+  .about h2 {
+    padding-left: 0px;
+  }
+
+  .about p {
+    padding-left: 0px;
+    font-size: 14px;
+  }
+
+  .about a {
+    margin-left: 0px;
+  }
+
+  .look {
+    text-align: center;
+  }
+
+  .box_flex {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 280px;
+  }
+
+  .box {
+    width: 30%;
+    margin-left: 0;
+  }
+
+  #boxmine1,#boxmine2{
+   visibility: hidden;
+    
+  }
+
+  .work {
+    text-align: center;
+  }
+
+  .work h2 {
+    text-align: center;
+  }
+
+ 
+
+  .project {
+    overflow: hidden;
+  }
+
+  .project_box {
+    width: 100%;
+   
+  }
+
+  .project img {
+    height: 250px;
+    width: 295px;
+  }
+
+  .learn_flex {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .learnhead {
+    width: 20%;
+    margin-top: 60px;
+  }
+
+  .learnhead h4 {
+    padding: 55px 45px;
+    font-size: 30px;
+    border: 13px solid rgb(255, 81, 126);
+  }
+
+  .learntext {
+    width: 50%;
+  }
+
+  .lean {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid rgb(255, 81, 126);
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    z-index: -1;
+  }
+
+  .learn_flex1 {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: 120px;
+  }
+
+  .learnhead1 {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 15%;
+  }
+
+  .learnhead1 h4 {
+    margin-left: 0;
+    margin-top: 20px;
+    padding: 55px 45px;
+    font-size: 30px;
+    border: 13px solid rgb(255, 196, 84);
+  }
+
+  .learntext h3 {
+    position: relative;
+  }
+
+  .learntext h3::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-right: 10px solid rgb(228, 225, 225);
+    border-bottom: 8px solid transparent;
+    box-shadow: 2px 2px 5px silver;
+    z-index: -1;
+    left: -13px;
+    top: 15px;
+  }
+
+  .learntext1 {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  .lean1 {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid rgb(255, 196, 84);
+    border-bottom: 15px solid transparent;
+    left: -33px;
+    top: 90px;
+  }
+
+  .learntext1 h3 {
+    position: relative;
+  }
+
+  .learntext1 h3::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 10px solid rgb(228, 225, 225);
+    border-bottom: 8px solid transparent;
+    box-shadow: 2px 2px 5px silver;
+    z-index: -1;
+    right: -12px;
+    top: 15px;
+  }
+
+  #myproject{
+   display: none;
+  }
+
+  .adjustment{
+    visibility: hidden;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .text p {
+    margin-left: 48px;
+  }
+
+  .type h1 {
+    font-size: 25px;
+  }
+
+  .type h1::after {
+    width: 185px;
+  }
+
+  .select h1 {
+    padding-top: 0;
+    font-size: 60px;
+  }
+
+  .project_flex {
+    width: 80%;
+    margin: 30px 0 0 170px;
+   
+  }
+
+  .project {
+    overflow: hidden;
+  }
+
+  .project_box {
+    width: 100%;
+    
+  }
+
+  .project img {
+    height: 250px;
+  }
+
+  .learn_flex {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .learnhead {
+    width: 20%;
+    margin-top: 60px;
+  }
+
+  .learnhead h4 {
+    padding: 35px 25px;
+    border: 10px solid rgb(255, 81, 126);
+  }
+
+  .learntext {
+    width: 50%;
+  }
+
+  .learntext::after {
+    display: none;
+  }
+
+  .learntext1::after {
+    display: none;
+  }
+
+  .lean {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid rgb(255, 81, 126);
+    border-bottom: 15px solid transparent;
+    position: absolute;
+    left: 153px;
+    top: 50px;
+    z-index: -1;
+  }
+
+  .learn_flex1 {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-left: auto;
+  }
+
+  .learnhead1 {
+    margin-top: 40px;
+    margin-left: 0;
+    width: 15%;
+  }
+
+  .learnhead1 h4 {
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 35px 25px;
+    border: 10px solid rgb(255, 196, 84);
+  }
+
+  .learntext1 {
+    width: 50%;
+    margin-left: 0;
+    margin-right: 80px;
+  }
+
+  .lean1 {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid rgb(255, 196, 84);
+    border-bottom: 15px solid transparent;
+    left: -32px;
+    top: 80px;
+  }
+
+  .learntext1 h3 {
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .image::before {
+    display: none;
+  }
+
+  .look h2 {
+    font-size: 25px;
+  }
+
+  .work h2 {
+    font-size: 25px;
+  }
+
+  .box {
+    margin-left: 15px;
+  }
+
+  .box p::after {
+    display: none;
+  }
+
+  .learn_flex {
+    width: 85%;
+    margin-left: 40px;
+  }
+
+  .learn_flex1 {
+    width: 85%;
+    margin-left: 50px;
+  }
+
+  .learntext span {
+    padding: 5px 30px;
+  }
+
+  .learntext h3 {
+    padding: 5px 20px;
+  }
+
+  .bachelor {
+    width: 250px;
+    top: 20px;
+  }
+
+  .bachelor1 {
+    width: 300px;
+    top: 40px;
+    left: -70px;
+  }
+
+  .learnhead1 h4 {
+    margin-left: 170px;
+  }
+
+  .lean1 {
+    left: 210px;
+    top: 113px;
+  }
+
+  .learntext1 span {
+    padding: 5px 20px;
+  }
+
+  .learntext1 h3 {
+    padding: 5px 20px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 479px) {
+  .learn_flex {
+    width: 85%;
+    margin-left: 40px;
+  }
+
+  .learn_flex1 {
+    width: 85%;
+    margin-left: 80px;
+  }
+
+  .learntext span {
+    padding: 5px 30px;
+  }
+
+  .learntext h3 {
+    padding: 5px 20px;
+  }
+
+  .bachelor {
+    width: 300px;
+    top: 20px;
+  }
+
+  .bachelor1 {
+    width: 300px;
+    top: 40px;
+  }
+
+  .learnhead1 h4 {
+    margin-left: 200px;
+  }
+
+  .lean1 {
+    left: 240px;
+    top: 113px;
+  }
+
+  .learntext1 span {
+    padding: 5px 30px;
+  }
+
+  .learntext1 h3 {
+    padding: 5px 30px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .learntext1 span {
+    padding: 5px 20px;
+  }
+
+  .learntext1 h3 {
+    padding: 5px 15px;
+  }
+
+  .learn_flex {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .learn_flex1 {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .bachelor {
+    left: 0px;
+  }
+
+  .bachelor1 {
+    left: -50px;
+  }
+
+  .learntext span {
+    padding: 5px 20px;
+  }
+
+  .learntext h3 {
+    padding: 5px 7px;
+  }
+  .learnhead1 h4 {
+    margin-left: 150px;
+  }
+
+  .lean1 {
+    left: 190px;
+    top: 114px;
+  }
+}
+
+
